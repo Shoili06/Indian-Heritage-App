@@ -5,7 +5,7 @@ A new Flutter application.
 This application gives information about various heritages of India.Splashscreen and sliver are implemented in this application.
 
 
-# Some Screenshots
+# Screenshots
 
 <img src="asset/screenshots/Screenshot_2019-03-13-23-17-56-716.jpeg" width="160">  <img src="asset/screenshots/Screenshot_2019-03-13-23-18-12-256.jpeg" width="160">  <img src="asset/screenshots/Screenshot_2019-03-13-23-18-56-778.jpeg" width="160">  <img src="asset/screenshots/Screenshot_2019-03-13-23-19-10-433.jpeg" width="160">  <img src="asset/screenshots/Screenshot_2019-03-13-23-19-24-147.jpeg" width="160">   
 
