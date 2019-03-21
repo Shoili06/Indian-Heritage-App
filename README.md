@@ -1,10 +1,10 @@
-# indian_heritage_app
+# Indian-Heritage-App
 
 A new Flutter application.
 
-## Getting Started
+This application gives information about various heritages of India.Splashscreen and sliver are implemented in this application.
 
-This application gives information about various heritages of India.
+# Some Screenshots
 
 A few resources to get you started if this is your first Flutter project:
 
