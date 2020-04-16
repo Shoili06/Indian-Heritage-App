@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                                                                           : "Victoria Museum");
               return GestureDetector(
                 child: ClipRRect(
-                  borderRadius: BorderRadius.circular(25.0),
+                  borderRadius: BorderRadius.circular(10.0),
                   child: Container(
                     color: Colors.white,
                     child: Stack(fit: StackFit.expand, children: <Widget>[
@@ -72,17 +72,20 @@ class _HomePageState extends State<HomePage> {
                         fit: BoxFit.cover,
                       ),
                       Center(
-                        child: MaterialButton(
-                          child: FittedBox(
-                            child: Text(
-                              '$printText',
-                              style: TextStyle(
-                                  fontSize: 35.0,
-                                  color: Colors.white,
-                                  fontFamily: "Lobster_Two"),
+                        child: Container(
+                          color: Colors.black.withOpacity(0.4),
+                          child: MaterialButton(
+                            child: FittedBox(
+                              child: Text(
+                                '$printText',
+                                style: TextStyle(
+                                    fontSize: 35.0,
+                                    color: Colors.white,
+                                    fontFamily: "Lobster_Two"),
+                              ),
                             ),
+                            color: Colors.transparent,
                           ),
-                          color: Colors.transparent,
                         ),
                       )
                     ]),
